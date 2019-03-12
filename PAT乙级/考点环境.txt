@@ -1,0 +1,1 @@
+山东大学（威海）机电与信息工程学院考点：VS2015, Eclipse-cpp-mars-R + TMD-GCC MinGW-w64, CodeBlocks13.12；Java 1.8_60_x64 + Eclipse-jee-mars-R；Python3.6 + Liclipse3.5 + Spyder3

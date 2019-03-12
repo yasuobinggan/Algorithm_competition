@@ -1,0 +1,29 @@
+22952601027516
+#include <bits/stdc++.h>
+using namespace std;
+char s[]="abcdefghijklmnopq";
+long long fc[18];
+int flag[105];
+int f(int b){
+	int sum=0;
+	for(int i='a';i<b;i++)
+		if(flag[i]==0)sum++;
+	flag[b]=1;
+	return sum;
+}
+int main()
+{
+	char p[]="bckfqlajhemgiodnp";
+	fc[1]=1;
+	for(long long i=2;i<18;i++)  //求阶层
+		fc[i]=fc[i-1]*i;
+	int len=strlen(s);
+	long long sum=0;
+	for(int i=0;i<len-1;i++){   //求每一位对应的值
+		sum+=fc[len-1-i]*(f(p[i]));
+		
+	
+	}
+	cout<<sum<<endl;
+	return 0;
+} 
