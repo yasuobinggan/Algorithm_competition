@@ -1,2 +1,2 @@
 # Algorithm
-Some code of algorithm
+Some code about algorithms
