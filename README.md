@@ -1,2 +1,2 @@
 # Algorithm
-Some codes about algorithm competition
+about algorithm competition
