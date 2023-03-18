@@ -1,3 +1,2 @@
 # Algorithm
-Some codes about algorithms
-记录竞赛型, 笔试型算法训练
+Some codes about algorithms competition
